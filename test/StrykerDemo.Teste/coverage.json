@@ -1,0 +1,115 @@
+{
+  "StrykerDemo.Code.dll": {
+    "/var/git/others/StrykerDemo/src/StrykerDemo.Code/Icms.cs": {
+      "StrykerDemo.Code.Icms": {
+        "System.Decimal StrykerDemo.Code.Icms::Calcular(System.Collections.Generic.IReadOnlyCollection`1<StrykerDemo.Code.Produtos>)": {
+          "Lines": {
+            "13": 3,
+            "14": 3,
+            "15": 41,
+            "16": 16,
+            "17": 16,
+            "18": 16,
+            "20": 3,
+            "21": 1,
+            "23": 3,
+            "24": 1,
+            "26": 3,
+            "27": 3
+          },
+          "Branches": [
+            {
+              "Line": 15,
+              "Offset": 47,
+              "EndOffset": 19,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 16
+            },
+            {
+              "Line": 15,
+              "Offset": 47,
+              "EndOffset": 49,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 3
+            },
+            {
+              "Line": 20,
+              "Offset": 77,
+              "EndOffset": 79,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 20,
+              "Offset": 77,
+              "EndOffset": 93,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 3
+            },
+            {
+              "Line": 23,
+              "Offset": 106,
+              "EndOffset": 108,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 1
+            },
+            {
+              "Line": 23,
+              "Offset": 106,
+              "EndOffset": 121,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 3
+            }
+          ]
+        },
+        "System.Void StrykerDemo.Code.Icms::.ctor()": {
+          "Lines": {
+            "8": 3,
+            "9": 3,
+            "10": 3
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/var/git/others/StrykerDemo/src/StrykerDemo.Code/Produtos.cs": {
+      "StrykerDemo.Code.Produtos": {
+        "System.Int32 StrykerDemo.Code.Produtos::get_Codigo()": {
+          "Lines": {
+            "5": 0
+          },
+          "Branches": []
+        },
+        "System.String StrykerDemo.Code.Produtos::get_Nome()": {
+          "Lines": {
+            "6": 0
+          },
+          "Branches": []
+        },
+        "System.Decimal StrykerDemo.Code.Produtos::get_Valor()": {
+          "Lines": {
+            "7": 32
+          },
+          "Branches": []
+        },
+        "System.Void StrykerDemo.Code.Produtos::.ctor(System.Int32,System.String,System.Decimal)": {
+          "Lines": {
+            "9": 16,
+            "10": 16,
+            "11": 16,
+            "12": 16,
+            "13": 16,
+            "14": 16
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}
