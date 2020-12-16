@@ -1,26 +1,53 @@
-SF:/var/git/others/StrykerDemo/src/StrykerDemo.Code/Icms.cs
-FN:12,System.Decimal StrykerDemo.Code.Icms::Calcular(System.Collections.Generic.IReadOnlyCollection`1<StrykerDemo.Code.Produtos>)
-FNDA:3,System.Decimal StrykerDemo.Code.Icms::Calcular(System.Collections.Generic.IReadOnlyCollection`1<StrykerDemo.Code.Produtos>)
+SF:/var/git/others/stryker.net-demo/src/StrykerDemo.Code/FizzBuzz.cs
+FN:6,System.String StrykerDemo.Code.FizzBuzz::Calculate(System.Int32)
+FNDA:4,System.String StrykerDemo.Code.FizzBuzz::Calculate(System.Int32)
+DA:7,4
+DA:9,4
+DA:10,1
+DA:12,3
+DA:13,1
+DA:15,2
+DA:16,1
+DA:18,1
+DA:19,4
+BRDA:9,4,0,2
+BRDA:9,4,1,2
+BRDA:9,17,0,1
+BRDA:9,17,1,3
+BRDA:12,35,0,1
+BRDA:12,35,1,2
+BRDA:15,53,0,1
+BRDA:15,53,1,1
+LF:9
+LH:9
+BRF:8
+BRH:8
+FNF:1
+FNH:1
+end_of_record
+SF:/var/git/others/stryker.net-demo/src/StrykerDemo.Code/MeuImposto.cs
+FN:12,System.Decimal StrykerDemo.Code.MeuImposto::Calcular(System.Collections.Generic.IReadOnlyCollection`1<StrykerDemo.Code.Produtos>)
+FNDA:3,System.Decimal StrykerDemo.Code.MeuImposto::Calcular(System.Collections.Generic.IReadOnlyCollection`1<StrykerDemo.Code.Produtos>)
 DA:13,3
 DA:14,3
-DA:15,41
-DA:16,16
-DA:17,16
-DA:18,16
+DA:15,43
+DA:16,17
+DA:17,17
+DA:18,17
 DA:20,3
-DA:21,1
+DA:21,2
 DA:23,3
-DA:24,1
+DA:24,2
 DA:26,3
 DA:27,3
-BRDA:15,47,1,16
+BRDA:15,47,1,17
 BRDA:15,47,0,3
-BRDA:20,77,0,1
+BRDA:20,77,0,2
 BRDA:20,77,1,3
-BRDA:23,106,0,1
+BRDA:23,106,0,2
 BRDA:23,106,1,3
-FN:7,System.Void StrykerDemo.Code.Icms::.ctor()
-FNDA:3,System.Void StrykerDemo.Code.Icms::.ctor()
+FN:7,System.Void StrykerDemo.Code.MeuImposto::.ctor()
+FNDA:3,System.Void StrykerDemo.Code.MeuImposto::.ctor()
 DA:8,3
 DA:9,3
 DA:10,3
@@ -31,14 +58,27 @@ BRH:6
 FNF:2
 FNH:2
 end_of_record
-SF:/var/git/others/StrykerDemo/src/StrykerDemo.Code/Produtos.cs
-FN:2,System.Int32 StrykerDemo.Code.Produtos::get_Codigo()
+SF:/var/git/others/stryker.net-demo/src/StrykerDemo.Code/Produtos.cs
+FN:6,System.Int32 StrykerDemo.Code.Produtos::get_Codigo()
 FNDA:0,System.Int32 StrykerDemo.Code.Produtos::get_Codigo()
-DA:3,0
-LF:1
-LH:0
+DA:7,0
+FN:7,System.String StrykerDemo.Code.Produtos::get_Nome()
+FNDA:0,System.String StrykerDemo.Code.Produtos::get_Nome()
+DA:8,0
+FN:8,System.Decimal StrykerDemo.Code.Produtos::get_Valor()
+FNDA:17,System.Decimal StrykerDemo.Code.Produtos::get_Valor()
+DA:9,17
+FN:9,System.Void StrykerDemo.Code.Produtos::.ctor(System.Int32,System.String,System.Decimal)
+FNDA:34,System.Void StrykerDemo.Code.Produtos::.ctor(System.Int32,System.String,System.Decimal)
+DA:10,34
+DA:11,17
+DA:12,17
+DA:13,17
+DA:14,17
+LF:8
+LH:6
 BRF:0
 BRH:0
-FNF:1
-FNH:0
+FNF:4
+FNH:2
 end_of_record
