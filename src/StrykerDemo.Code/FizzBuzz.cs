@@ -1,11 +1,10 @@
-using System.Globalization;
 namespace StrykerDemo.Code
 {
     public class FizzBuzz
     {
         public string Calculate(int number)
         {
-            if(number > 500)
+            if(number >= 500)
                 return "C&IT";
 
             if((number % 5) == 0 && (number % 3) == 0)
